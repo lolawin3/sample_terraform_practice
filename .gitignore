@@ -1,0 +1,3 @@
+# Git should ignore these files 
+# Terraform provider dependency files
+.terraform/
