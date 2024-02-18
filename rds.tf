@@ -27,11 +27,3 @@ resource "aws_db_instance" "default"{
     parameter_group_name = "default.mysql5.7"
     skip_final_snapshot = true
 }
-
-variable "AWS_SECRET_ACCESS_KEY" {
-    default = ""
-}
-
-variable "AWS_ACCESS_KEY_ID" {
-    default = ""
-}
