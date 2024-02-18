@@ -8,6 +8,7 @@ terraform {
 }
 
 provider "github" {
+  token = var.token
 }
 
 resource "github_repository" "example" {
@@ -21,3 +22,7 @@ template {
   repository = "terraform-module-template"
 }
 */
+
+variable "token" {
+    default = ""
+}
